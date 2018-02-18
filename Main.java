@@ -1,3 +1,7 @@
+/*Alejandro Zerega
+2/18/2018
+New Lab 5 (Lab 4 document)
+*/
 import java.util.Scanner;
 public class Main {
     public static void main(String args[]){
@@ -32,6 +36,7 @@ public class Main {
                 number = Character.getNumericValue(letter);
 
             }
+            //This is where the hexadecimal number's value is converted to a decimal value.
             decimal = (long)(decimal + number*Math.pow(16,i));
             i++;
         }
